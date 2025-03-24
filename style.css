@@ -1,0 +1,94 @@
+<style>
+  html {
+    zoom: 90%;
+  }
+
+  body {
+    background: linear-gradient(to right, #1a1a1a, #000000);
+    color: #f0f0f0;
+    font-family: "Georgia", serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    color: #ff99cc;
+    text-shadow: 0 0 5px #ff99cc, 0 0 15px #ff66cc;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .container {
+    background: #2a2a2a;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px #ff66cc66;
+    max-width: 900px;
+    width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    box-shadow: inset 0 0 8px #ff69b4;
+    max-length: 5000;
+    resize: vertical;
+  }
+
+  button {
+    background: #ff69b4;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px 5px;
+    box-shadow: 0 0 8px #ff69b4;
+    transition: all 0.3s ease;
+  }
+
+  button:hover {
+    background: #ff85c1;
+    box-shadow: 0 0 12px #ff99cc;
+    transform: scale(1.05);
+  }
+
+  .output {
+    margin-top: 20px;
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ff69b4;
+    white-space: pre-wrap;
+    position: relative;
+  }
+
+  .output h3 {
+    color: #ffb6c1;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .output .icon-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+</style>

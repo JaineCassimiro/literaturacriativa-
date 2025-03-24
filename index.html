@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📚 Biblioteca Literária - Jaine Cassimiro</title>
+  <style>
+    html {
+      zoom: 90%;
+    }
+
+    body {
+      background: linear-gradient(to right, #1a1a1a, #000000);
+      color: #f0f0f0;
+      font-family: "Georgia", serif;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      color: #ff99cc;
+      text-shadow: 0 0 5px #ff99cc, 0 0 15px #ff66cc;
+      margin: 20px 0;
+      text-align: center;
+    }
+
+    .container {
+      background: #2a2a2a;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 0 20px #ff66cc66;
+      max-width: 900px;
+      width: 100%;
+    }
+
+    textarea {
+      width: 100%;
+      height: 120px;
+      border-radius: 10px;
+      padding: 10px;
+      font-size: 1rem;
+      border: none;
+      margin-bottom: 20px;
+      background-color: #1c1c1c;
+      color: #ffffff;
+      box-shadow: inset 0 0 8px #ff69b4;
+      max-length: 5000;
+      resize: vertical;
+    }
+
+    button {
+      background: #ff69b4;
+      border: none;
+      color: white;
+      padding: 10px 25px;
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+
+    .output {
+      margin-top: 20px;
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ff69b4;
+      white-space: pre-wrap;
+    }
+
+    .output h3 {
+      color: #ffb6c1;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>📚 Biblioteca Literária - Jaine Cassimiro</h1>
+  <div class="container">
+    <textarea id="textoEntrada" placeholder="Digite seu texto aqui..." maxlength="5000"></textarea>
+    <button id="botaoReescrever">Reescrever</button>
+
+    <div class="output">
+      <h3>🎩 Estilo Clássico:</h3>
+      <div id="saidaClassico"></div>
+    </div>
+    <div class="output">
+      <h3>🎧 Estilo Contemporâneo:</h3>
+      <div id="saidaContemporaneo"></div>
+    </div>
+    <div class="output">
+      <h3>🎨 Estilo Academia de Arte (1930):</h3>
+      <div id="saidaVintage"></div>
+    </div>
+    <div class="output">
+      <h3>🕯️ Estilo Barroco Filosófico:</h3>
+      <div id="saidaBarroco"></div>
+    </div>
+    <div class="output">
+      <h3>🔮 Estilo Surrealismo Lírico:</h3>
+      <div id="saidaSurreal"></div>
+    </div>
+  </div>
+
+  <script src="reescritorSinonimos.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
